@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio Carol</title>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Cormorant+Garamond:wght@400;700&family=Poppins:wght@400;600&family=Lato:wght@400;700&family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" crossorigin="anonymous">
+  <!-- AOS CSS -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+  <!-- Corazoncito rebotando por toda la página -->
+  <div class="bouncing-heart">💖</div>
+
+  <nav class="navbar">
+    <div class="navbar-left">
+      <span class="navbar-logo" title="Accueil">🌸</span>
+      <ul>
+        <li><a href="#accueil">Accueil</a></li>
+        <li><a href="#parcours">Mon parcours</a></li>
+        <li><a href="#projets">Mes projets</a></li>
+        <li><a href="#competences">Compétences</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#cv">CV</a></li>
+      </ul>
+    </div>
+    <div class="navbar-right">
+      <button id="theme-toggle" aria-label="Basculer le thème">🌙</button>
+    </div>
+  </nav>
+
+  <!-- Section image hero juste sous la navbar -->
+  <section class="hero-image">
+    <img src="img/img1.png" alt="Image héro" class="hero-img">
+  </section>
+
+  <section id="accueil" class="accueil" data-aos="fade-in">
+    <div class="container accueil-content">
+      <div class="accueil-text" data-aos="fade-right">
+        <h1 class="animated-title">
+          <span class="letter">B</span><span class="letter">o</span><span class="letter">n</span><span class="letter">j</span><span class="letter">o</span><span class="letter">u</span><span class="letter">r</span><span class="letter">,</span>
+          <span class="word-space"></span>
+          <span class="letter">j</span><span class="letter">e</span>
+          <span class="word-space"></span>
+          <span class="letter">m</span><span class="letter">'</span><span class="letter">a</span><span class="letter">p</span><span class="letter">p</span><span class="letter">e</span><span class="letter">l</span><span class="letter">l</span><span class="letter">e</span>
+          <span class="word-space"></span>
+          <span class="letter highlight">C</span><span class="letter highlight">a</span><span class="letter highlight">r</span><span class="letter highlight">o</span><span class="letter highlight">l</span>
+          <span class="word-space"></span>
+          <span class="letter highlight">G</span><span class="letter highlight">a</span><span class="letter highlight">l</span><span class="letter highlight">l</span><span class="letter highlight">e</span><span class="letter highlight">g</span><span class="letter highlight">o</span><span class="letter highlight">s</span>
+        </h1>
+        <p>Je suis une étudiante en troisième année de BUT Informatique.</p>
+        <p>Je suis une personne qui continue toujours, même quand la vie devient difficile.
+        J'ai choisi la programmation parce que j'aime les défis, et je ne veux jamais abandonner.</p>
+        <p>Après le BUT, je veux rentrer dans mon pays, passer la certification C2 en anglais, commencer à apprendre l'allemand, étudier beaucoup…
+        Et un jour, revenir en France pour faire un master.</p>
+        <p class="quote">« Je continue d'avancer, toujours. »</p>
+      </div>
+      <div class="accueil-image" data-aos="fade-left">
+        <img src="img/img4.jpg" alt="Portrait" class="portrait-img">
+      </div>
+    </div>
+  </section>
+
+  <section id="parcours" class="parcours">
+    <h2 data-aos="fade-up">Mon parcours</h2>
+    <div class="timeline" data-aos="fade-up">
+      <!-- Item 2019 -->
+      <div class="timeline-item" data-aos="zoom-in">
+        <div class="timeline-icon"><i class="fas fa-search"></i></div>
+        <div class="timeline-content">
+          <span class="timeline-date">2019</span>
+          <div class="timeline-image">
+            <img src="img/img1.jpeg" alt="Découverte de la programmation au Mexique" class="timeline-img">
+          </div>
+          <h3>Découverte de la programmation</h3>
+          <p>J'ai découvert la programmation au lycée technique au Mexique.</p>
+          <p>J'ai appris les bases du développement : Python, HTML, CSS, SQL.</p>
+          <p>Je me suis diplômée comme technicienne en programmation.</p>
+        </div>
+      </div>
+      <!-- Item 2022 -->
+      <div class="timeline-item" data-aos="zoom-in" data-aos-delay="100">
+        <div class="timeline-icon"><i class="fas fa-graduation-cap"></i></div>
+        <div class="timeline-content">
+          <span class="timeline-date">2022</span>
+          <div class="timeline-image">
+            <img src="img/img2.jpg" alt="Diplôme de technicienne supérieure" class="timeline-img">
+          </div>
+          <h3>Diplôme de technicienne supérieure</h3>
+          <p>J'ai terminé un diplôme universitaire comme technicienne supérieure en informatique.</p>
+          <p>J'ai réalisé mon premier stage dans une entreprise d'énergies renouvelables, où j'ai créé leur site web.</p>
+        </div>
+      </div>
+      <!-- Item 2024 -->
+      <div class="timeline-item" data-aos="zoom-in" data-aos-delay="200">
+        <div class="timeline-icon"><i class="fas fa-plane"></i></div>
+        <div class="timeline-content">
+          <span class="timeline-date">2024</span>
+          <div class="timeline-image">
+            <img src="img/france.jpg" alt="Arrivée en France" class="timeline-img">
+          </div>
+          <h3>Arrivée en France et BUT3</h3>
+          <p>En septembre 2024, je suis arrivée en France pour intégrer la 3e année du BUT Informatique.</p>
+          <p>J'ai commencé un projet SAE avec une équipe : une application pour plantes avec capteurs, intelligence artificielle et backend en Java.</p>
+        </div>
+      </div>
+      <!-- Item 2025 -->
+      <div class="timeline-item" data-aos="zoom-in" data-aos-delay="300">
+        <div class="timeline-icon"><i class="fas fa-flask"></i></div>
+        <div class="timeline-content">
+          <span class="timeline-date">2025</span>
+          <div class="timeline-image">
+            <img src="img/descarga.jpeg" alt="Stage au laboratoire FEMTO-ST" class="timeline-img">
+          </div>
+          <h3>Stage au laboratoire FEMTO-ST</h3>
+          <p>J'ai développé l'interface Badevel pour la gestion des appareils IoT dans le cadre du Living Lab.</p>
+          <p>J'ai conçu une base de données orientée graphe avec Neo4J, créé une interface web pour la gestion des capteurs (température, mouvement, humidité, congélation, fumée), et développé des API REST pour connecter les dispositifs.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projets" class="projets">
+    <h2 data-aos="fade-up">Mes projets</h2>
+    <div class="cards">
+      <div class="card" data-aos="fade-up">
+        <div class="card-icon"><i class="fas fa-project-diagram"></i></div>
+        <h3>Badevel Living Lab</h3>
+        <p>Base de données orientée graphe avec Neo4J pour la transformation numérique d'un village. API REST avec Node.js et interface de visualisation.</p>
+        <div class="project-tech">
+          <span class="tech-tag">Neo4J</span>
+          <span class="tech-tag">Node.js</span>
+          <span class="tech-tag">D3.js</span>
+        </div>
+      </div>
+      <div class="card" data-aos="fade-up" data-aos-delay="100">
+        <div class="card-icon"><i class="fas fa-seedling"></i></div>
+        <h3>Application Plantes IoT</h3>
+        <p>Projet SAE en équipe : application avec capteurs IoT, intelligence artificielle pour la reconnaissance de plantes et backend Java.</p>
+        <div class="project-tech">
+          <span class="tech-tag">Java</span>
+          <span class="tech-tag">IA</span>
+          <span class="tech-tag">IoT</span>
+      </div>
+      </div>
+
+    </div>
+  </section>
+
+
+
+  <section id="competences" class="competences">
+    <h2 data-aos="fade-up">Compétences</h2>
+    <div class="competences-grid">
+      <!-- Base de données -->
+      <div class="competence competence-featured" data-aos="fade-up">
+        <div class="competence-icon"><i class="fas fa-project-diagram"></i></div>
+        <h3 class="competence-name">Concevoir une base de données</h3>
+        <div class="competence-thumbnail-wrapper">
+          <img src="img/nodos.png" alt="Schéma de la base de données en graphes" class="competence-thumbnail" data-img="img/nodos.png">
+          <button class="img-legend-btn" data-legend="Modèle de base de données orientée graphes (nœuds) — première version obtenue.">ℹ️</button>
+        </div>
+        <div class="competence-description">
+          <p>Pendant mon stage au laboratoire FEMTO-ST à Belfort, j'ai développé l'interface Badevel pour la gestion des appareils IoT. Le projet faisait partie du Badevel Living Lab, un projet de transformation numérique et écologique d'un village.</p>
+          <p>J'ai conçu une base de données orientée graphe avec <span class="tech-link" data-tech="neo4j">Neo4J</span> pour modéliser les capteurs (température, mouvement, humidité, congélation, fumée) et leurs relations avec les bâtiments. J'ai développé une <span class="tech-link" data-tech="apirest">API REST</span> avec <span class="tech-link" data-tech="nodejs">Node.js</span> et créé une interface web intuitive pour la gestion des dispositifs.</p>
+          <p>Le défi principal était de créer une interface utilisateur claire pour visualiser et gérer tous les types de capteurs. J'ai utilisé <span class="tech-link" data-tech="postman">Postman</span> pour tester les API et <span class="tech-link" data-tech="d3js">D3.js</span> pour les visualisations de données des capteurs.</p>
+        </div>
+        <div class="competence-code">
+          <h4>💡 Exemple de requête Cypher :</h4>
+          <div class="code-block">
+            <div class="code-header">
+              <span class="code-language">Cypher</span>
+              <span class="code-copy">📋 Copier</span>
+            </div>
+            <div class="code-content"><span class="code-comment">// Crée un capteur et le relie à un bâtiment dans la base de données Neo4J</span>
+<span class="code-keyword">CREATE</span> (<span class="code-variable">:Capteur</span> {<span class="code-property">id</span>: <span class="code-string">'C123'</span>})
+-[<span class="code-variable">:INSTALLE_DANS</span>]->
+(<span class="code-variable">:Bâtiment</span> {<span class="code-property">nom</span>: <span class="code-string">'École'</span>})</div>
+          </div>
+        </div>
+        <div class="competence-skills">
+          <span class="skill-tag" data-tech="neo4j">Neo4J</span>
+          <span class="skill-tag" data-tech="nodejs">Node.js</span>
+          <span class="skill-tag" data-tech="apirest">API REST</span>
+          <span class="skill-tag" data-tech="d3js">D3.js</span>
+          <span class="skill-tag" data-tech="postman">Postman</span>
+        </div>
+      </div>
+      
+      <!-- Développement Web -->
+      <div class="competence" data-aos="fade-up" data-aos-delay="100">
+        <div class="competence-icon"><i class="fas fa-code"></i></div>
+        <h3 class="competence-name">Développement Web — Interface utilisateur</h3>
+        <div class="competence-thumbnail-wrapper">
+          <img src="img/mac.jpeg" alt="Projet Mac - Interface utilisateur" class="competence-thumbnail" data-img="img/mac.jpeg">
+          <button class="img-legend-btn" data-legend="Image représentative d'une application iOS. Je n'ai pas de capture réelle car le projet a été réalisé sur Mac à l'université.">ℹ️</button>
+        </div>
+        <div class="competence-description">
+          <p>Pendant une matière spécifique de Mac à l'université, j'ai travaillé sur l'interface utilisateur d'une application web de gestion de repas (type UberEats).</p>
+          <p>J'ai conçu des vues responsives avec <span class="tech-link" data-tech="html">HTML</span>, <span class="tech-link" data-tech="css">CSS</span> et <span class="tech-link" data-tech="javascript">JavaScript</span>. J'ai utilisé des composants modernes et je me suis concentrée sur l'ergonomie.</p>
+          <p>Je n'ai pas de captures d'écran car le projet a été réalisé dans le laboratoire de l'université, sur les ordinateurs Mac disponibles sur place.</p>
+        </div>
+        <div class="competence-code">
+          <h4>💡 Exemple de composant Swift :</h4>
+          <div class="code-block">
+            <div class="code-header">
+              <span class="code-language">Swift</span>
+              <span class="code-copy">📋 Copier</span>
+            </div>
+            <div class="code-content"><span class="code-comment">// Ce composant SwiftUI affiche une liste de plats avec un titre personnalisé.</span>
+<span class="code-keyword">import</span> <span class="code-module">SwiftUI</span>
+
+<span class="code-comment">// Définition du modèle de données pour un plat</span>
+<span class="code-keyword">struct</span> <span class="code-class">Plat</span>: <span class="code-class">Identifiable</span> {
+    <span class="code-keyword">let</span> id = <span class="code-class">UUID</span>()
+    <span class="code-keyword">let</span> nom: <span class="code-class">String</span>
+}
+
+<span class="code-comment">// Vue principale qui affiche la liste des plats</span>
+<span class="code-keyword">struct</span> <span class="code-class">ListePlatsView</span>: <span class="code-class">View</span> {
+    <span class="code-keyword">let</span> plats: [<span class="code-class">Plat</span>]
+
+    <span class="code-keyword">var</span> body: <span class="code-class">some View</span> {
+        <span class="code-class">VStack</span> {
+            <span class="code-class">Text</span>(<span class="code-string">"🍽️ Mes Plats Préférés"</span>)
+                .<span class="code-function">font</span>(.<span class="code-class">title</span>)
+                .<span class="code-function">padding</span>()
+            <span class="code-class">List</span>(plats) { plat <span class="code-keyword">in</span>
+                <span class="code-class">Text</span>(plat.nom)
+            }
+        }
+    }
+}
+
+<span class="code-comment">// Exemple d'utilisation dans un aperçu SwiftUI</span>
+<span class="code-keyword">struct</span> <span class="code-class">ListePlatsView_Previews</span>: <span class="code-class">PreviewProvider</span> {
+    <span class="code-keyword">static var</span> platsExemple = [
+        <span class="code-class">Plat</span>(nom: <span class="code-string">"Pizza Margherita"</span>),
+        <span class="code-class">Plat</span>(nom: <span class="code-string">"Sushi Saumon"</span>),
+        <span class="code-class">Plat</span>(nom: <span class="code-string">"Tacos"</span>)
+    ]
+    <span class="code-keyword">static var</span> previews: <span class="code-class">some View</span> {
+        <span class="code-class">ListePlatsView</span>(plats: platsExemple)
+    }
+}</div>
+          </div>
+        </div>
+        <div class="competence-skills">
+          <span class="skill-tag" data-tech="html">HTML</span>
+          <span class="skill-tag" data-tech="css">CSS</span>
+          <span class="skill-tag" data-tech="javascript">JavaScript</span>
+          <span class="skill-tag" data-tech="responsive">Responsive Design</span>
+          <span class="skill-tag" data-tech="uxui">UX/UI</span>
+        </div>
+      </div>
+      
+      <!-- Python & IA -->
+      <div class="competence" data-aos="fade-up" data-aos-delay="200">
+        <div class="competence-icon"><i class="fab fa-python"></i></div>
+        <h3 class="competence-name">Python & Intelligence Artificielle — Application IA de prévention</h3>
+        <div class="competence-thumbnail-wrapper">
+          <img src="img/transformers.png" alt="Transformers - Machine Learning" class="competence-thumbnail" data-img="img/transformers.png">
+          <button class="img-legend-btn" data-legend="Exemple de résultat de mon projet d'intelligence artificielle : la matrice montre quelles variables sont corrélées ou biaisées dans l'analyse.">ℹ️</button>
+        </div>
+        <div style="text-align:center;margin-bottom:10px;">
+          <a href="https://colab.research.google.com/drive/1glM7KksiMkqOCkD7mPqglQlC5LbSE4Ry#scrollTo=51m5J9QDLLPj" target="_blank" style="color:#EF476F;font-weight:bold;text-decoration:underline;">Voir le notebook complet sur Google Colab 📓</a>
+        </div>
+        <div class="competence-description">
+          <p>Dans le cadre d'un projet d'apprentissage automatique, j'ai développé un modèle en <span class="tech-link" data-tech="python">Python</span> pour prédire les défaillances de machines industrielles à partir de données chimiques.</p>
+          <p>J'ai utilisé <span class="tech-link" data-tech="sklearn">scikit-learn</span> pour entraîner des modèles de classification, et <span class="tech-link" data-tech="matplotlib">matplotlib</span> pour visualiser les résultats.</p>
+          <p>Ce projet m'a permis de découvrir la data science appliquée à des cas concrets, même si c'était la partie la plus difficile.</p>
+        </div>
+        <div class="competence-code">
+          <h4>💡 Exemple de modèle de classification :</h4>
+          <div class="code-block">
+            <div class="code-header">
+              <span class="code-language">Python</span>
+              <span class="code-copy">📋 Copier</span>
+            </div>
+            <div class="code-content"><span class="code-keyword">from</span> <span class="code-module">sklearn.ensemble</span> <span class="code-keyword">import</span> <span class="code-class">RandomForestClassifier</span>
+<span class="code-keyword">from</span> <span class="code-module">sklearn.model_selection</span> <span class="code-keyword">import</span> <span class="code-class">train_test_split</span>
+<span class="code-keyword">import</span> <span class="code-module">pandas</span> <span class="code-keyword">as</span> <span class="code-variable">pd</span>
+
+<span class="code-comment"># Chargement et préparation des données</span>
+<span class="code-variable">data</span> = <span class="code-variable">pd</span>.<span class="code-function">read_csv</span>(<span class="code-string">'machine_data.csv'</span>)
+<span class="code-variable">X</span> = <span class="code-variable">data</span>[<span class="code-string">['temperature', 'pression', 'ph', 'vibration']</span>]
+<span class="code-variable">y</span> = <span class="code-variable">data</span>[<span class="code-string">'defaillance'</span>]
+
+<span class="code-comment"># Division des données</span>
+<span class="code-variable">X_train</span>, <span class="code-variable">X_test</span>, <span class="code-variable">y_train</span>, <span class="code-variable">y_test</span> = <span class="code-function">train_test_split</span>(
+    <span class="code-variable">X</span>, <span class="code-variable">y</span>, <span class="code-property">test_size</span>=<span class="code-number">0.2</span>, <span class="code-property">random_state</span>=<span class="code-number">42</span>
+)
+
+<span class="code-comment"># Entraînement du modèle</span>
+<span class="code-variable">model</span> = <span class="code-class">RandomForestClassifier</span>(<span class="code-property">n_estimators</span>=<span class="code-number">100</span>)
+<span class="code-variable">model</span>.<span class="code-function">fit</span>(<span class="code-variable">X_train</span>, <span class="code-variable">y_train</span>)
+
+<span class="code-comment"># Prédiction</span>
+<span class="code-variable">accuracy</span> = <span class="code-variable">model</span>.<span class="code-function">score</span>(<span class="code-variable">X_test</span>, <span class="code-variable">y_test</span>)
+<span class="code-function">print</span>(<span class="code-string">f"Précision: {accuracy:.2f}"</span>)</div>
+          </div>
+        </div>
+        <div class="competence-skills">
+          <span class="skill-tag" data-tech="python">Python</span>
+          <span class="skill-tag" data-tech="sklearn">scikit-learn</span>
+          <span class="skill-tag" data-tech="pandas">pandas</span>
+          <span class="skill-tag" data-tech="matplotlib">matplotlib</span>
+          <span class="skill-tag" data-tech="ml">Machine Learning</span>
+        </div>
+      </div>
+      
+      <!-- Backend Java -->
+      <div class="competence" data-aos="fade-up" data-aos-delay="300">
+        <div class="competence-icon"><i class="fab fa-java"></i></div>
+        <h3 class="competence-name">Développement Backend — Architecture Java</h3>
+        <div class="competence-thumbnail-wrapper">
+          <img src="img/coco.png" alt="Backend Java - API REST" class="competence-thumbnail" data-img="img/coco.png">
+          <button class="img-legend-btn" data-legend="Projet backend Node.js & Python : API REST recevant des données JSON (températures), analyse par script Python (analyze_with_ai.py) qui classe les données comme 'saines' ou 'non saines' selon la température, avec un niveau de confiance simulé. Structure modulaire Node.js pour les routes, intégration Python pour l'analyse en temps réel.">ℹ️</button>
+        </div>
+        <div class="competence-description">
+          <p>Dans un projet SAE, j'étais responsable de l'<span class="tech-link" data-tech="apirest">API REST</span> et du serveur central.</p>
+          <p>J'ai utilisé <span class="tech-link" data-tech="java">Java</span> avec <span class="tech-link" data-tech="spring">Spring Boot</span> pour créer des endpoints, gérer les accès aux données et structurer les réponses JSON.</p>
+          <p>J'ai testé mon backend avec <span class="tech-link" data-tech="postman">Postman</span>, et j'ai appliqué l'architecture MVC pour organiser le code proprement.</p>
+        </div>
+        <div class="competence-code">
+          <h4>💡 Exemple de contrôleur REST :</h4>
+          <div class="code-block">
+            <div class="code-header">
+              <span class="code-language">Java</span>
+              <span class="code-copy">📋 Copier</span>
+            </div>
+            <div class="code-content"><span class="code-annotation">@RestController</span>
+<span class="code-annotation">@RequestMapping</span>(<span class="code-string">"/api/restaurants"</span>)
+<span class="code-keyword">public class</span> <span class="code-class">RestaurantController</span> {
+
+    <span class="code-annotation">@Autowired</span>
+    <span class="code-keyword">private</span> <span class="code-class">RestaurantService</span> <span class="code-variable">restaurantService</span>;
+
+    <span class="code-annotation">@GetMapping</span>
+    <span class="code-keyword">public</span> <span class="code-class">ResponseEntity</span>&lt;<span class="code-class">List</span>&lt;<span class="code-class">Restaurant</span>&gt;&gt; <span class="code-function">getAllRestaurants</span>() {
+        <span class="code-class">List</span>&lt;<span class="code-class">Restaurant</span>&gt; <span class="code-variable">restaurants</span> = <span class="code-variable">restaurantService</span>.<span class="code-function">findAll</span>();
+        <span class="code-keyword">return</span> <span class="code-class">ResponseEntity</span>.<span class="code-function">ok</span>(<span class="code-variable">restaurants</span>);
+    }
+
+    <span class="code-annotation">@PostMapping</span>
+    <span class="code-keyword">public</span> <span class="code-class">ResponseEntity</span>&lt;<span class="code-class">Restaurant</span>&gt; <span class="code-function">createRestaurant</span>(
+            <span class="code-annotation">@RequestBody</span> <span class="code-annotation">@Valid</span> <span class="code-class">Restaurant</span> <span class="code-variable">restaurant</span>) {
+        <span class="code-class">Restaurant</span> <span class="code-variable">saved</span> = <span class="code-variable">restaurantService</span>.<span class="code-function">save</span>(<span class="code-variable">restaurant</span>);
+        <span class="code-keyword">return</span> <span class="code-class">ResponseEntity</span>.<span class="code-function">status</span>(<span class="code-class">HttpStatus</span>.<span class="code-variable">CREATED</span>).<span class="code-function">body</span>(<span class="code-variable">saved</span>);
+    }
+}</div>
+          </div>
+        </div>
+        <div class="competence-skills">
+          <span class="skill-tag" data-tech="java">Java</span>
+          <span class="skill-tag" data-tech="spring">Spring Boot</span>
+          <span class="skill-tag" data-tech="postgresql">PostgreSQL</span>
+          <span class="skill-tag" data-tech="postman">Postman</span>
+          <span class="skill-tag" data-tech="apirest">API REST</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact" data-aos="fade-up">
+    <h2>Contactez-moi</h2>
+    <div class="contact-container">
+      <div class="contact-form-section" data-aos="fade-right">
+        <h3>Envoyez-moi un message</h3>
+        <form id="contact-form" class="contact-form">
+          <div class="form-group">
+            <label for="name">Nom complet</label>
+            <input type="text" id="name" name="name" required>
+            <span class="form-icon">👤</span>
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+            <span class="form-icon">📧</span>
+          </div>
+          <div class="form-group">
+            <label for="subject">Sujet</label>
+            <input type="text" id="subject" name="subject" required>
+            <span class="form-icon">💼</span>
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+            <span class="form-icon">💬</span>
+          </div>
+          <button type="submit" class="submit-btn">
+            <span class="btn-text">Envoyer le message</span>
+            <span class="btn-icon">🚀</span>
+          </button>
+        </form>
+      </div>
+      
+      <div class="contact-direct-section" data-aos="fade-left">
+        <h3>Contact direct</h3>
+        <div class="contact-methods">
+                     <a href="mailto:carol.v.gallegos@gmail.com?subject=Contact depuis votre portfolio" class="contact-method email-method">
+             <div class="method-icon">📧</div>
+             <div class="method-content">
+               <h4>Email</h4>
+               <p>carol.v.gallegos@gmail.com</p>
+             </div>
+             <div class="method-arrow">→</div>
+           </a>
+           
+           <a href="https://wa.me/524101509913?text=Bonjour Carol! J'ai visité votre portfolio et j'aimerais discuter avec vous." target="_blank" class="contact-method whatsapp-method">
+             <div class="method-icon">💬</div>
+             <div class="method-content">
+               <h4>WhatsApp</h4>
+               <p>Message instantané</p>
+             </div>
+             <div class="method-arrow">→</div>
+           </a>
+           
+           <a href="https://www.linkedin.com/in/carol-gallegos-b254b22b3" target="_blank" class="contact-method linkedin-method">
+            <div class="method-icon">💼</div>
+            <div class="method-content">
+              <h4>LinkedIn</h4>
+              <p>Réseau professionnel</p>
+            </div>
+            <div class="method-arrow">→</div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sección CV -->
+  <section id="cv" class="cv-section" data-aos="fade-up">
+    <div class="cv-container">
+      <div class="cv-content">
+        <div class="cv-icon">📄</div>
+        <h2>Mon CV</h2>
+        <p>Découvrez mon parcours professionnel et académique complet</p>
+        <div class="cv-buttons">
+          <a href="#" class="cv-btn cv-btn-view" id="view-cv-btn">
+            <span class="btn-icon">👁️</span>
+            <span class="btn-text">Voir le CV</span>
+          </a>
+          <a href="#" class="cv-btn cv-btn-download" id="download-cv-btn">
+            <span class="btn-icon">⬇️</span>
+            <span class="btn-text">Télécharger PDF</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Modal pour les technologies -->
+  <div id="tech-modal" class="tech-modal">
+    <div class="tech-modal-content">
+      <span class="tech-modal-close">&times;</span>
+      <h3 id="tech-modal-title"></h3>
+      <p id="tech-modal-description"></p>
+      <div class="tech-modal-links">
+        <a id="tech-modal-doc" href="#" target="_blank" class="tech-modal-link">📚 Documentation</a>
+        <a id="tech-modal-site" href="#" target="_blank" class="tech-modal-link">🌐 Site officiel</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal para imágenes de competencias -->
+  <div id="competence-img-modal">
+    <button class="close-btn" aria-label="Fermer">&times;</button>
+    <img src="" alt="Image de compétence agrandie">
+  </div>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const modal = document.getElementById('competence-img-modal');
+      const modalImg = modal.querySelector('img');
+      const closeBtn = modal.querySelector('.close-btn');
+      document.querySelectorAll('.competence-thumbnail').forEach(img => {
+        img.addEventListener('click', function() {
+          modalImg.src = this.getAttribute('data-img');
+          modalImg.alt = this.alt;
+          modal.classList.add('active');
+        });
+      });
+      closeBtn.addEventListener('click', function() {
+        modal.classList.remove('active');
+        modalImg.src = '';
+      });
+      modal.addEventListener('click', function(e) {
+        if (e.target === modal) {
+          modal.classList.remove('active');
+          modalImg.src = '';
+        }
+      });
+    });
+  </script>
+
+  <!-- Modal para leyendas de imágenes -->
+  <div id="img-legend-modal" class="tech-modal" style="display:none;">
+    <div class="tech-modal-content">
+      <span class="tech-modal-close">&times;</span>
+      <p id="img-legend-text"></p>
+    </div>
+  </div>
+  <script>
+    document.querySelectorAll('.img-legend-btn').forEach(btn => {
+      btn.addEventListener('click', function(e) {
+        e.stopPropagation();
+        const modal = document.getElementById('img-legend-modal');
+        document.getElementById('img-legend-text').textContent = this.getAttribute('data-legend');
+        modal.style.display = 'block';
+      });
+    });
+    document.querySelector('#img-legend-modal .tech-modal-close').onclick = function() {
+      document.getElementById('img-legend-modal').style.display = 'none';
+    };
+    window.onclick = function(event) {
+      const modal = document.getElementById('img-legend-modal');
+      if (event.target === modal) modal.style.display = 'none';
+    };
+  </script>
+
+  <!-- AOS JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+  <script src="js/scripts.js"></script>
+
+  <!-- Partículas fondo -->
+  <canvas id="particles-bg"></canvas>
+
+  <footer class="footer">
+    <span class="footer-signature">Carol Gallegos</span>
+    <div class="footer-socials">
+      <a href="https://github.com/" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+      <a href="https://linkedin.com/" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+      <a href="mailto:carol@email.com" title="Email"><i class="fas fa-envelope"></i></a>
+    </div>
+    <div style="margin-top:1rem;font-size:0.95rem;opacity:0.7;">Portfolio réalisé avec ❤️ et beaucoup de café.</div>
+  </footer>
+
+  <!-- Botón scroll-to-top -->
+  <button id="scrollToTopBtn" title="Remonter en haut">↑</button>
+
+  <script>
+  // Scroll to top
+  const scrollBtn = document.getElementById('scrollToTopBtn');
+  window.addEventListener('scroll', () => {
+    if(window.scrollY > 300) scrollBtn.style.display = 'flex';
+    else scrollBtn.style.display = 'none';
+  });
+  scrollBtn.addEventListener('click', () => {
+    window.scrollTo({top:0, behavior:'smooth'});
+  });
+
+  // Partículas fondo
+  const canvas = document.getElementById('particles-bg');
+  const ctx = canvas.getContext('2d');
+  let w = window.innerWidth, h = window.innerHeight;
+  canvas.width = w; canvas.height = h;
+  window.addEventListener('resize',()=>{w=window.innerWidth;h=window.innerHeight;canvas.width=w;canvas.height=h;});
+  const particles = Array.from({length: 38},()=>({
+    x: Math.random()*w,
+    y: Math.random()*h,
+    r: 1.5+Math.random()*2.5,
+    dx: (Math.random()-0.5)*0.5,
+    dy: (Math.random()-0.5)*0.5,
+    c: `rgba(239,71,111,${0.10+Math.random()*0.15})`
+  }));
+  function drawParticles(){
+    ctx.clearRect(0,0,w,h);
+    for(const p of particles){
+      ctx.beginPath();ctx.arc(p.x,p.y,p.r,0,2*Math.PI);
+      ctx.fillStyle=p.c;ctx.fill();
+      p.x+=p.dx;p.y+=p.dy;
+      if(p.x<0||p.x>w)p.dx*=-1;
+      if(p.y<0||p.y>h)p.dy*=-1;
+    }
+    requestAnimationFrame(drawParticles);
+  }
+  drawParticles();
+  </script>
+
+  <section class="reflexion" data-aos="fade-up">
+    <h2 class="reflexion-title">Réflexion personnelle</h2>
+    <blockquote class="quote">
+      J'ai appris que le monde est plus petit que je ne le croyais. J'ai grandi en tant que personne, je suis tombée mille fois mais j'ai découvert que j'ai un but. Même si cette année n'a pas été la meilleure et que je n'ai pas toujours pu montrer de quoi je suis capable, elle m'a donné l'impulsion et la certitude que j'ai ma place ici. Si je retourne dans mon pays, ce ne sera pas pour y rester, mais pour prendre de l'élan, apprendre de mes erreurs et revenir plus forte.
+      <br><br>
+      Ces compétences ont été essentielles car elles m'ont permis de sortir de ma zone de confort, de collaborer avec des personnes d'horizons différents et de résoudre des problèmes concrets. J'ai appris à structurer mes idées, à documenter mon travail, à analyser mes réussites et mes échecs. J'ai compris que la technique n'est rien sans la capacité à s'adapter, à communiquer et à persévérer.
+      <br><br>
+      Aujourd'hui, je me sens plus confiante, plus curieuse et plus déterminée à poursuivre mon chemin dans l'informatique. Ce portfolio n'est qu'une étape, mais il symbolise tout ce que j'ai traversé et tout ce que je veux encore accomplir.
+    </blockquote>
+  </section>
+</body>
+</html> 
